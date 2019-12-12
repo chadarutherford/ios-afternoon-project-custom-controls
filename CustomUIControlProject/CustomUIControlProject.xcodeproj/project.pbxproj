@@ -12,6 +12,8 @@
 		636108D223A2C28F005CF50F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 636108D023A2C28F005CF50F /* Main.storyboard */; };
 		636108D423A2C290005CF50F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 636108D323A2C290005CF50F /* Assets.xcassets */; };
 		636108D723A2C290005CF50F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 636108D523A2C290005CF50F /* LaunchScreen.storyboard */; };
+		636108E623A2C367005CF50F /* CustomControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636108E523A2C367005CF50F /* CustomControl.swift */; };
+		636108E823A2C4F5005CF50F /* CustomControlViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636108E723A2C4F5005CF50F /* CustomControlViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		636108D323A2C290005CF50F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		636108D623A2C290005CF50F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		636108D823A2C290005CF50F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		636108E523A2C367005CF50F /* CustomControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomControl.swift; sourceTree = "<group>"; };
+		636108E723A2C4F5005CF50F /* CustomControlViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomControlViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +81,7 @@
 		636108DF23A2C2CC005CF50F /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				636108E723A2C4F5005CF50F /* CustomControlViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -102,6 +107,7 @@
 		636108E223A2C2E9005CF50F /* Controls */ = {
 			isa = PBXGroup;
 			children = (
+				636108E523A2C367005CF50F /* CustomControl.swift */,
 			);
 			path = Controls;
 			sourceTree = "<group>";
@@ -192,6 +198,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				636108CB23A2C28F005CF50F /* AppDelegate.swift in Sources */,
+				636108E823A2C4F5005CF50F /* CustomControlViewController.swift in Sources */,
+				636108E623A2C367005CF50F /* CustomControl.swift in Sources */,
 				636108CD23A2C28F005CF50F /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
